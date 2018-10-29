@@ -15,6 +15,8 @@
 		04C12FE62185C1CC00A53BDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C12FE52185C1CC00A53BDC /* main.m */; };
 		04C12FF02185C1CC00A53BDC /* monitor_tableview_navigationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C12FEF2185C1CC00A53BDC /* monitor_tableview_navigationDemoTests.m */; };
 		04C12FFB2185C1CC00A53BDC /* monitor_tableview_navigationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C12FFA2185C1CC00A53BDC /* monitor_tableview_navigationDemoUITests.m */; };
+		04C1300A2185E29100A53BDC /* JKWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C130092185E29100A53BDC /* JKWTableViewCell.m */; };
+		04C13010218726DB00A53BDC /* JKWView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C1300F218726DB00A53BDC /* JKWView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		04C12FF62185C1CC00A53BDC /* monitor-tableview-navigationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "monitor-tableview-navigationDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C12FFA2185C1CC00A53BDC /* monitor_tableview_navigationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = monitor_tableview_navigationDemoUITests.m; sourceTree = "<group>"; };
 		04C12FFC2185C1CC00A53BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C130082185E29100A53BDC /* JKWTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKWTableViewCell.h; sourceTree = "<group>"; };
+		04C130092185E29100A53BDC /* JKWTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKWTableViewCell.m; sourceTree = "<group>"; };
+		04C1300E218726DB00A53BDC /* JKWView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKWView.h; sourceTree = "<group>"; };
+		04C1300F218726DB00A53BDC /* JKWView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKWView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				04C12FE12185C1CC00A53BDC /* LaunchScreen.storyboard */,
 				04C12FE42185C1CC00A53BDC /* Info.plist */,
 				04C12FE52185C1CC00A53BDC /* main.m */,
+				04C130082185E29100A53BDC /* JKWTableViewCell.h */,
+				04C130092185E29100A53BDC /* JKWTableViewCell.m */,
+				04C1300E218726DB00A53BDC /* JKWView.h */,
+				04C1300F218726DB00A53BDC /* JKWView.m */,
 			);
 			path = "monitor-tableview-navigationDemo";
 			sourceTree = "<group>";
@@ -262,9 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C1300A2185E29100A53BDC /* JKWTableViewCell.m in Sources */,
 				04C12FDB2185C1CA00A53BDC /* ViewController.m in Sources */,
 				04C12FE62185C1CC00A53BDC /* main.m in Sources */,
 				04C12FD82185C1CA00A53BDC /* AppDelegate.m in Sources */,
+				04C13010218726DB00A53BDC /* JKWView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
